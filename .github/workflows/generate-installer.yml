@@ -33,7 +33,7 @@ env:
 jobs:
   build:
     runs-on: macos-latest
-    if: github.repository == 'https://github.com/esmarcin30/download-macos/blob/7ab45dbeeb454ddd7058d247608838654669bbe5/.github/workflows/generate-installer.yml'
+    if: github.repository == 'https://github.com/esmarcin30/download-macos.git'
     steps:
       - uses: actions/checkout@v4
       
